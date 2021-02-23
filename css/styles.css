@@ -35,7 +35,9 @@ line-height: 1.19;
 
 }
 
-ul {
+.list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 /* цвет основного текста #757575 */
@@ -84,8 +86,13 @@ letter-spacing: 0.02em;
 }
 
 /* Hero*/
+.hero {
+  text-align: center;
+}
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
   color: #ffffff;
 
 font-weight: 900;
@@ -111,7 +118,7 @@ text-transform: uppercase;
   font-size: 16px;
   line-height: 1.8;
   text-align: center;
-  align-items: center;
+  
 
   padding: 12px 24px;
   display: inline-block;
@@ -140,6 +147,9 @@ text-align: center;
 
 .feature-list .title {
   color: var(--title-text-color);
+
+  margin-top: 0;
+  margin-bottom: 10;
 
 font-weight: 700;
 font-size: 14px;

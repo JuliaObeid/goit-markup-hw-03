@@ -18,7 +18,15 @@ body {
 
   letter-spacing: 0.03em;
 
+  margin: 0;
+}
 
+.container {
+  width: 1230px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 /* Logo */
 .logo .accent-blue {
   color: var(--accent-color);

@@ -112,7 +112,7 @@ a {
 }
 .hero-title {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 40;
   color: #ffffff;
 
   font-weight: 900;
@@ -149,6 +149,7 @@ a {
 /* section*/
 
 .section-title {
+  margin-top: 0;
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -160,6 +161,8 @@ a {
 /* Features */
 
 .feature-list .title {
+  margin-top: 0;
+  margin-bottom: 10;
   color: var(--title-text-color);
 
   font-weight: 700;

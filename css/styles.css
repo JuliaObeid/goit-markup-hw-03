@@ -21,6 +21,10 @@ body {
   margin: 0;
 }
 
+/*Page header*/
+.page-header {
+  background-color: var(--primary-white-color);
+}
 .container {
   width: 1230px;
   margin: 0 auto;
@@ -44,6 +48,8 @@ body {
 }
 
 ul {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 a {
@@ -101,8 +107,12 @@ a {
 }
 
 /* Hero*/
-
+.hero {
+  background-color: #2f303a;
+}
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 0;
   color: #ffffff;
 
   font-weight: 900;
@@ -116,16 +126,18 @@ a {
 /*Button*/
 
 .button {
+  border-radius: 4px;
+  padding: 10px 32px;
   color: var(--title-text-color);
   background-color: var(--primary-white-color);
+  border: 1px solid transparent;
 
   font-weight: bold;
   font-size: 16px;
   line-height: 1.8;
   text-align: center;
   align-items: center;
-
-  padding: 12px 24px;
+  min-width: 200px;
   display: inline-block;
 }
 
@@ -216,6 +228,8 @@ a {
 }
 
 ul {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -226,6 +240,9 @@ ul {
 }
 
 .filter .button {
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: 1px solid transparent;
   background-color: #f5f4fa;
 
   color: var(--title-text-color);
@@ -234,6 +251,7 @@ ul {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
+  min-width: 73px;
 }
 
 .button:hover,

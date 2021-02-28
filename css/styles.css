@@ -25,6 +25,9 @@ body {
 .page-header {
   background-color: var(--primary-white-color);
 }
+.contacts {
+  background-color: var(--primary-white-color);
+}
 .container {
   width: 1230px;
   margin: 0 auto;
@@ -109,6 +112,7 @@ a {
 /* Hero*/
 .hero {
   background-color: #2f303a;
+  text-align: center;
 }
 .hero-title {
   margin-top: 0;
@@ -131,6 +135,7 @@ a {
   color: var(--title-text-color);
   background-color: var(--primary-white-color);
   border: 1px solid transparent;
+  border-color: var(--accent-color);
 
   font-weight: bold;
   font-size: 16px;
@@ -161,7 +166,8 @@ a {
 }
 
 .section-title {
-  margin-top: 0;
+  margin-top: 94;
+  margin-bottom: 50;
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -171,6 +177,10 @@ a {
 }
 
 /* Features */
+
+.feature-list .container {
+  background-color: #e5e5e5;
+}
 
 .feature-list .title {
   margin-top: 0;
@@ -184,6 +194,8 @@ a {
 }
 
 .feature-list .paragraph {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--primary-text-color);
 
   font-weight: normal;
@@ -193,8 +205,17 @@ a {
 
 /* Our team*/
 
+.section-no-padding .container {
+  background-color: #f5f4fa;
+}
+.section-no-padding .section-title {
+  margin-top: 94;
+  margin-bottom: 50;
+}
+
 .our-team .title {
   color: var(--title-text-color);
+  margin-top: 0;
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -204,6 +225,8 @@ a {
 }
 
 .our-team .occupation {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--primary-text-color);
 
   font-weight: normal;
@@ -213,6 +236,27 @@ a {
 }
 
 /* Footer*/
+.footer .container {
+  background-color: #2f303a;
+}
+
+/* Logo for footer*/
+.logo-footer .accent-blue {
+  color: var(--accent-color);
+  font-family: raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-footer .accent-white {
+  color: var(--primary-white-color);
+  font-family: raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
 
 .footer .address {
   color: var(--primary-white-color);
@@ -259,7 +303,9 @@ ul {
   border-radius: 4px;
   padding: 6px 22px;
   border: 1px solid transparent;
+  border-color: #f5f4fa;
   background-color: #f5f4fa;
+  display: inline-block;
 
   color: var(--title-text-color);
 
@@ -274,9 +320,13 @@ ul {
 :focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
+  border: 1px solid transparent;
+  border-color: var(--accent-color);
 }
 
 .feature-list-portfolio .title {
+  margin-top: 0;
+  margin-bottom: 4;
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -286,6 +336,8 @@ ul {
 }
 
 .feature-list-portfolio .variety {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--primary-text-color);
 
   font-weight: normal;

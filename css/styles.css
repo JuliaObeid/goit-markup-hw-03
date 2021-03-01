@@ -21,16 +21,35 @@ body {
   margin: 0;
 }
 
+/*Утиліти*/
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 /*Page header*/
 .page-header {
   background-color: var(--primary-white-color);
 }
+/*page header*/
+
+.page-header {
+}
+
+/*Main nav*/
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
 .contacts {
   background-color: var(--primary-white-color);
 }
 .container {
   width: 1230px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -50,11 +69,6 @@ body {
   line-height: 1.19;
 }
 
-ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
 a {
   text-decoration: none;
 }
@@ -70,6 +84,7 @@ a {
 
 .contacts .container {
   display: flex;
+  margin-left: auto;
 }
 
 .contacts .mail {
@@ -79,6 +94,7 @@ a {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  margin-right: 50px;
 }
 
 .contacts .mail:hover {
@@ -98,6 +114,7 @@ a {
 
 .site-nav {
   display: flex;
+  margin-left: 93px;
 }
 
 .site-nav .item:not(:last-child) {
@@ -199,6 +216,13 @@ a {
   background-color: #e5e5e5;
 }
 
+.feauture-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.feature-list .item {
+  display: flex;
+}
 .feature-list .title {
   margin-top: 0;
   margin-bottom: 10;
@@ -228,6 +252,13 @@ a {
 .section-no-padding .section-title {
   margin-top: 94;
   margin-bottom: 50;
+}
+
+.our-team {
+  display: flex;
+}
+.section-title {
+  text-align: center;
 }
 
 .our-team .title {
@@ -340,7 +371,22 @@ ul {
   border: 1px solid transparent;
   border-color: var(--accent-color);
 }
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.flex-elements .item {
+  width: 370px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: turquoise;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+}
 .feature-list-portfolio .title {
   margin-top: 0;
   margin-bottom: 4;

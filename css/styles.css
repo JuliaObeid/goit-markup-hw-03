@@ -30,11 +30,9 @@ div {
 /*Page header*/
 .page-header {
   background-color: var(--primary-white-color);
+  display: flex;
 }
 /*page header*/
-
-.page-header {
-}
 
 /*Main nav*/
 
@@ -212,24 +210,18 @@ a {
 
 /* Features */
 
+.ul .item {
+  display: flex;
+}
+
 .feature-list .container {
   background-color: #e5e5e5;
 }
 
-.feauture-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-.feature-list .item-studio {
-  display: flex;
-  flex-wrap: wrap;
-  display: inline-block;
-}
 .feature-list .title {
   margin-top: 0;
   margin-bottom: 10;
   color: var(--title-text-color);
-  display: inline-block;
 
   font-weight: 700;
   font-size: 14px;

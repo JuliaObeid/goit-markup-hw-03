@@ -21,11 +21,30 @@ body {
   margin: 0;
 }
 
+/* цвет основного текста #757575 */
+
+/* вторичный цвет текста #212121 */
+
+/* белый цвет текста #FFFFFF */
+
+/* акцент : #2196F3 */
+
 /*Утиліти*/
 div {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+/*general info about container*/
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid red;
 }
 /*Page header*/
 
@@ -33,20 +52,24 @@ div {
   background-color: var(--primary-white-color);
   display: flex;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
-
+.page-header .item + .item {
+  margin-left: 50px;
+}
 /*Main nav*/
 
 .main-nav,
 .site-nav,
 .contacts {
   display: flex;
+  align-items: center;
 }
 
 .main-nav {
-  justify-content: space-between;
   align-items: center;
-
+  justify-content: space-between;
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -54,12 +77,15 @@ div {
 .site-nav li {
   margin-left: 50px;
 }
+.site-nav {
+  margin-left: 93px;
+}
 
-.contacts li: :last-child {
-  margin-left: 50px;
+.contacts li:not(:last-child) {
+  margin-right: 50px;
 }
 .contacts {
-  background-color: tomato;
+  background-color: var(--primary-white-color);
   padding-top: 32px;
   padding-bottom: 32px;
   margin-left: auto;
@@ -84,13 +110,6 @@ div {
 a {
   text-decoration: none;
 }
-/* цвет основного текста #757575 */
-
-/* вторичный цвет текста #212121 */
-
-/* белый цвет текста #FFFFFF */
-
-/* акцент : #2196F3 */
 
 /* Site nav */
 
@@ -124,11 +143,6 @@ a {
   color: var(--accent-color);
 }
 
-.site-nav {
-  display: flex;
-  margin-left: 93px;
-}
-
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
 }
@@ -160,7 +174,6 @@ a {
 /* Hero*/
 .hero {
   background-color: #2f303a;
-  text-align: center;
 }
 .hero-title {
   margin-top: 0;
@@ -227,10 +240,9 @@ a {
 
 /* Features */
 
-.ul .item {
-  display: flex;
+.feature-list li {
+  width: 270px;
 }
-
 .feature-list .container {
   background-color: #e5e5e5;
 }
@@ -351,16 +363,6 @@ ul {
   padding: 0;
   margin: 0;
   list-style: none;
-}
-/*general info about container*/
-
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid red;
 }
 
 /* section*/

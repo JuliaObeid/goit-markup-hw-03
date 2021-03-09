@@ -264,6 +264,8 @@ a {
 .feature-list li {
   width: 270px;
   display: inline-block;
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
 .feature-list .container {
   background-color: #e5e5e5;
@@ -295,16 +297,25 @@ a {
 .section-no-padding .container {
   background-color: #f5f4fa;
 }
+
 .section-no-padding .section-title {
-  margin-top: 94;
-  margin-bottom: 50;
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 
-.our-team {
+.our-team li {
   display: flex;
+  width: 270px;
+  margin-top: 50px;
+  margin-bottom: 94px;
 }
+
 .section-title {
   text-align: center;
+  margin-bottom: 50px;
+}
+
+.title .occupation {
 }
 
 .our-team .title {

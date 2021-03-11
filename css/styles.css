@@ -341,6 +341,13 @@ a {
   margin-right: 30px;
 }
 
+.master-data {
+  padding: 30px 55px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid transparent;
+}
+
 .section-title {
   text-align: center;
   margin-bottom: 50px;
@@ -376,6 +383,19 @@ a {
   background-color: #2f303a;
 }
 
+.logo-container {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.contact-list-mail {
+  margin-top: 9px;
+}
+
+.contact-list-phone {
+  margin-top: 9px;
+  margin-bottom: 60px;
+}
 /* Logo for footer*/
 .logo-footer .accent-blue {
   color: var(--accent-color);
@@ -436,7 +456,13 @@ ul {
   color: var(--title-text-color);
 }
 
+.filter {
+  background-color: #e5e5e5;
+}
+
 .filter .button {
+  margin-top: 94px;
+  margin-bottom: 50px;
   border-radius: 4px;
   padding: 6px 22px;
   border: 1px solid transparent;
@@ -473,20 +499,30 @@ ul {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  background-color: yellow;
+  background-color: #e5e5e5;
 }
 
 .flex-element {
   width: 370px;
   display: inline-block;
   flex-wrap: wrap;
-  background-color: turquoise;
+  background-color: #ffffff;
   margin-right: 30px;
   margin-bottom: 30px;
 }
 
 .flex-element:nth-child(3n) {
   margin-right: 0;
+}
+
+.title-container {
+margin-top: 20px;
+display: flex;
+display: inline-block;
+}
+
+.variety-container {
+
 }
 
 .flex-element:nth-last-child(-n + 3) {

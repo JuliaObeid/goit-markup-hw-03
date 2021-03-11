@@ -246,7 +246,7 @@ a {
   padding-bottom: 0;
 }
 
-.section-title .centered {
+.section-title {
   text-align: center;
 }
 
@@ -285,12 +285,20 @@ a {
 
 /* Features */
 
-.feature-list li {
+.title-list {
+  width: 270px;
+  display: inline-block;
+  display: flex;
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+/*.feature-list li {
   width: 270px;
   display: flex;
   display: inline-block;
   margin-top: 94px;
-  margin-bottom: 94px;
+  margin-bottom: 94px;*/
 }
 
 .feature-list .container {

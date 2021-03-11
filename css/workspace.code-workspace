@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\goit-markup-hw-04"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\images"
+		},
+		{
+			"path": "..\\imagesforportf"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "goit-markup-hw-04"
+	}
+}

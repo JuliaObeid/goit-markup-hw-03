@@ -162,7 +162,7 @@ a {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  margin-right: 50px;
+  /*margin-right: 50px;*/
 }
 
 .contacts .mail:hover {
@@ -194,11 +194,11 @@ a {
   border: 1px solid red;
 }*/
 
-.hero {
+/*.hero {
   max-width: 1600px;
   margin: 0 auto;
   background-color: #2f303a;
-}
+}*/
 
 .hero .hero-title {
   margin: auto;
@@ -206,8 +206,6 @@ a {
 
 .hero-title {
  
-  padding-top: 200px;
-  padding-bottom: 30px;
   color: #ffffff;
 
   font-weight: 900;
@@ -220,8 +218,13 @@ a {
   margin: 0 auto;
 }
 
-.container-hero {
+.hero-index {
   background-color: #2f303a;
+  padding: 200px 0;
+}
+
+.container-hero {
+  /*background-color: #2f303a;*/
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -251,17 +254,19 @@ a {
 }
 
 .button-primary {
+  display: block;
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   margin: 0 auto;
   padding: 0 auto;
+  padding: 6.22px;
 }
 
 /* section*/
 
-.section {
-  margin-top: 0;
-  margin-bottom: 94;
+.section-work {
+  /*margin-top: 0;
+  margin-bottom: 94;*/
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -269,7 +274,7 @@ a {
   /*background-color: #e5e5e5;*/
 }
 
-.section .no-padding {
+.section-work .no-padding {
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -290,7 +295,7 @@ a {
   margin-left: 30px;
 }
 
-.section .section-title {
+.section-work .section-title {
   margin: 0 auto;
   margin-bottom: 50px;
   color: var(--title-text-color);
@@ -307,7 +312,6 @@ a {
   /*background-color: #e5e5e5;*/
   width: 1200px;
   
- 
 }
 
 .photo {
@@ -356,9 +360,6 @@ margin-right: 0;
   background-color: #e5e5e5;
 }*/
 
-.feature-list {
-  padding-bottom: 94px;
-}
 
 .content-list li {
   width: 270px;
@@ -373,7 +374,25 @@ margin-right: 0;
   margin-right: 0;
 }
 
-.feature-list .title {
+.feature {
+  padding-top: 94px;
+  display: flex;
+}
+
+.content-list {
+  display: flex;
+  margin-left: -30px;
+}
+
+.content-list > .title-list {
+  padding: 0;
+  margin: 0;
+  flex-basis: calc(100% / 4 -30px);
+
+  margin-left: 30px;
+}
+
+.feature .title {
   margin-top: 0;
   margin-bottom: 10px;
   color: var(--title-text-color);
@@ -385,7 +404,7 @@ margin-right: 0;
 }
 
 
-.feature-list .paragraph {
+.feature .paragraph {
   margin-top: 0;
   margin-bottom: 0;
   color: var(--primary-text-color);
@@ -619,7 +638,7 @@ ul {
 
 .button:hover,
 :focus {
-  background-color: var(--accent-color);
+  /*background-color: var(--accent-color);*/
   color: var(--primary-white-color);
   border: 1px solid transparent;
   border-color: var(--accent-color);

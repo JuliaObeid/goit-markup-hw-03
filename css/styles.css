@@ -235,6 +235,20 @@ a {
 /*Button*/
 
 .button {
+  width: 200px;
+}
+
+/*html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}*/
+
+.button {
   border-radius: 4px;
   padding: 10px 32px;
   color: var(--title-text-color);
@@ -242,7 +256,6 @@ a {
   border: 1px solid transparent;
   border-color: var(--accent-color);
 
-  width: 200px;
   min-width: 200px;
   margin: 0 auto;
   font-weight: bold;
@@ -473,8 +486,14 @@ margin-left: 30px;
 }
 
 .section-title {
-  text-align: center;
+  margin: 0 auto;
   margin-bottom: 50px;
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
 .title .occupation {

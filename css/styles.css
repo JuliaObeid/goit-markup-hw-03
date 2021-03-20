@@ -234,7 +234,7 @@ a {
 
 /*Button*/
 
-.button-primary {
+.button {
   border-radius: 4px;
   padding: 10px 32px;
   color: var(--title-text-color);
@@ -242,18 +242,19 @@ a {
   border: 1px solid transparent;
   border-color: var(--accent-color);
 
+  width: 200px;
+  min-width: 200px;
   margin: 0 auto;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.8;
   text-align: center;
   align-items: center;
-  min-width: 200px;
   display: inline-block;
   
 }
 
-.button-primary {
+.button {
   display: block;
   background-color: var(--accent-color);
   color: var(--primary-white-color);

@@ -224,6 +224,7 @@ a {
   text-transform: uppercase;
   max-width: 696px;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .hero-index {
@@ -325,14 +326,6 @@ a {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-}
-
-.photo-container {
-  /*display: flex;
-  flex-wrap: wrap;
-  /*background-color: #e5e5e5;*/
-  width: 1200px;
-  
 }
 
 
@@ -696,8 +689,8 @@ ul {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  margin-top: -30px;
-  margin-left: -30px;
+  /*margin-top: -30px;
+  margin-left: -30px;*/
 }
 
 

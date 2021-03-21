@@ -142,13 +142,13 @@ div {
 
 
 /* Logo */
-.accent-blue {
+.page-logo__header {
   color: var(--accent-color);
 }
 .accent-black {
   color: var(--title-text-color);
 }
-.accent-blue,
+.page-logo__header,
 .accent-black {
   font-family: raleway, sans-serif;
 
@@ -445,6 +445,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   border: 1px solid transparent;
+  background-color: var(--primary-white-color);
 }
 
 .occupation {
@@ -549,11 +550,11 @@ margin-left: 30px;
 }
 /* Logo for footer*/
 
-.logo-footer {
+footer .page-logo__footer {
   margin-bottom: 20px;
 }
 
-.accent-blue {
+.page-logo__footer {
   color: var(--accent-color);
   font-family: raleway, sans-serif;
   font-style: normal;
@@ -572,9 +573,11 @@ margin-left: 30px;
   margin-bottom: 20px;
 }
 
+.page-logo__footer {
+  margin-bottom: 20px;
+}
 
 .address {
-  margin-top: 20px;
   margin-bottom: 9px;
 }
 
@@ -623,6 +626,7 @@ margin-left: 30px;
   font-size: 14px;
   line-height: 1.7;
 }
+
 /*styles for portfolio.html*/
 
 :root {
@@ -653,9 +657,7 @@ ul {
 }
 
 
-.portfolio-button {
-  /*margin-top: 94px;*/
-  
+.portf-button { 
   border-radius: 4px;
   padding: 6px 22px;
   border: 1px solid transparent;
@@ -672,15 +674,22 @@ ul {
   min-width: 73px;
 }
 
-.portfolio-button :focus {
- border: none;
-}
 
-.portfolio-button :hover, :focus {
+.filter .portf-button:hover,
+.filter .portf-button:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
+  outline: auto;
+}
+
+
+.portfolio-button :hover
+:focus {
+  /*background-color: var(--accent-color);*/
+  color: var(--accent-color);
   border: 1px solid transparent;
-  border-color: var(--accent-color);
+  /*border-color: var(--accent-color);*/
+  outline: auto;
 }
 
 .filter {
@@ -726,6 +735,7 @@ ul {
   margin-right: auto;
   padding: 20px;
   border: 1px solid transparent;
+  background-color: var(--primary-white-color);
 }
 
 .title {
